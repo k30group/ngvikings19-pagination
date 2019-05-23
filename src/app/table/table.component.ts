@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {people, Person} from '../people';
+import { people, Person } from '../people';
 
 @Component({
   selector: 'k30-table',
