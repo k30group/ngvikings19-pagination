@@ -1,7 +1,7 @@
 @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
 
 .mat-app-background {
-  background-color: white;
+  background-color: red;
 }
 
 body { 
@@ -11,9 +11,4 @@ body {
 
 .basic-container {
   padding: 30px;
-}
-
-.version-info {
-  font-size: 8pt;
-  float: right;
 }

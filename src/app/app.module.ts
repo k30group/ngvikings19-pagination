@@ -1,13 +1,14 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import {MatTableModule} from '@angular/material';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatTableModule, MatPaginatorModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { TableComponent } from './table/table.component';
 
 @NgModule({
-  imports:      [ BrowserModule,   MatTableModule ],
-  declarations: [ AppComponent, TableComponent ],
-  bootstrap:    [ AppComponent ]
+  imports: [BrowserModule, BrowserAnimationsModule, MatTableModule, MatPaginatorModule],
+  declarations: [AppComponent, TableComponent],
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
